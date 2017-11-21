@@ -9,29 +9,27 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 What things you need to install the software and how to install them
+* [TensorFlow](https://www.tensorflow.org/install/)
+* Keras
 
-```
-Give examples
-```
+      ```
+      $pip install keras
+      ```
+* Matplotlib
 
-### Installing
+      ```
+      $ pip install matplotlib
+      ```
+* [PyTorch](http://pytorch.org/) 
 
-A step by step series of examples that tell you have to get a development env running
+      ```
+      $ pip3 install http://download.pytorch.org/whl/cu80/torch-0.2.0.post3-cp35-cp35m-manylinux1_x86_64.whl 
+      $ pip3 install torchvision
+      ```
 
-Say what the step will be
+## Testing
 
-```
-Give the example
-```
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+The built model has been tested on unseen USPS dataset. 
 
 ## Contributing
 
